@@ -4,6 +4,7 @@ import schedule
 import time
 from datetime import datetime
 import pytz
+import re
 
 def scrape_website():
     url = 'https://www.topstocktips.com/tipbn'
